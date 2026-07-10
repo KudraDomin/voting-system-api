@@ -1,0 +1,14 @@
+package com.example.voting.adapters.web.error;
+
+public enum ErrorCode {
+
+    VALIDATION_FAILED,
+    RESOURCE_NOT_FOUND,
+    VOTER_ALREADY_EXISTS,
+    VOTER_ALREADY_BLOCKED,
+    VOTER_NOT_BLOCKED,
+    DUPLICATE_VOTE,
+    VOTER_BLOCKED,
+    OPTION_NOT_IN_ELECTION,
+    INTERNAL_ERROR
+}
